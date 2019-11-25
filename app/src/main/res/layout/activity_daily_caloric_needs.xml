@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.engg6600.projectandroid.DailyCaloricNeedsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Caloric Needs"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="70dp"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/txtBMR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basal Metabolic Rate : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/txtCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Calories : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtCarbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbohydrates Range : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtProteins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Protein Range : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtFats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fats Range : "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>

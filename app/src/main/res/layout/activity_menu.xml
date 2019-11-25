@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.engg6600.projectandroid.MenuActivity">
+
+    <ImageView
+        android:id="@+id/ivLoginLogo"
+        android:layout_width="900px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerInside"/>
+
+    <Button
+        android:id="@+id/btnViewProfile"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View/Edit Profile"/>
+
+    <Button
+        android:id="@+id/btnDailyNeeds"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Daily Caloric Needs"/>
+
+    <Button
+        android:id="@+id/btnMealSchedule"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Meal Schedule"/>
+
+    <Button
+        android:id="@+id/btnCheckFoodProduct"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Check Food Product"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Exit"/>
+</LinearLayout>
