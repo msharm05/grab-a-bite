@@ -9,6 +9,9 @@ An android mobile application that enables the user to calculate his/her recomme
 * Sqlite
 * Google Cloud Vision API
 
+### How to run?
+Fork the repository and run via Android Studio.
+
 ### Application UI Preview
 
 
